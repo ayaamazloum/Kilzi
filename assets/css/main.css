@@ -192,7 +192,7 @@ h6, .body__overlay {
   --rs-theme-blue: #005EB8;
   --rs-theme-light-blue: #0D80CE;
   --rs-theme-green: #2d2d2d;
-  --rs-theme-light-green: #56813e;
+  --rs-theme-light-green: #6FBD46;
   --rs-theme-yellow: #F7C600;
   --rs-theme-deep-blue: #3B37FD;
   --rs-text-primary: #616161;
@@ -221,6 +221,7 @@ h6, .body__overlay {
   --rs-fw-black: 900;
   /** @font size declaration */
   --rs-fs-body: 18px;
+  --rs-fs-s: 16px;
   --rs-fs-p: 17px;
   --rs-fs-h1: 68px;
   --rs-fs-h2: 52px;
@@ -6149,7 +6150,7 @@ html.lenis body {
 .rs-header-five .rs-header-logo-wrapper {
   width: 295px;
   height: 90px;
-  background-color: var(--rs-bg-primary);
+  border-right: 1px solid rgba(31, 31, 31, 0.07);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16566,7 +16567,7 @@ html.lenis body {
   position: relative;
   gap: 10px;
   border-radius: 2px;
-  font-weight: 700;
+  font-size: var(--rs-fs-p);
   padding: 10px 30px 10px 30px;
   color: var(--rs-text-primary);
   border: 1px solid #EFEBEB;
@@ -16575,6 +16576,7 @@ html.lenis body {
 @media only screen and (max-width: 1199px) {
   .rs-services-one .rs-services-tab .nav-link {
     width: 100%;
+    font-size: var(--rs-fs-s);
   }
 }
 .rs-services-one .rs-services-tab .nav-link svg {
