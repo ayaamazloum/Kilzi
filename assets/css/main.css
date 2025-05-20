@@ -3282,7 +3282,7 @@ input[type=checkbox] ~ label:hover {
   background: #ea3e00;
 }
 .backtotop-wrap.has-theme-green {
-  background: #507a7c;
+  background: var(--rs-theme-light-green);
 }
 .backtotop-wrap.has-theme-yellow {
   background: var(--rs-theme-yellow);
@@ -11305,7 +11305,6 @@ html.lenis body {
 }
 .rs-copyright-one .rs-footer-copyright.has-theme-green a {
   color: var(--rs-theme-green);
-  background-image: linear-gradient(var(--rs-theme-green), var(--rs-theme-green)), linear-gradient(var(--rs-theme-green), var(--rs-theme-green));
 }
 .rs-copyright-one .rs-footer-copyright.has-theme-green p {
   color: var(--rs-white);
@@ -16917,7 +16916,7 @@ html.lenis body {
   position: relative;
 }
 .rs-services-three .rs-services-item .descrip {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .rs-services-three .rs-services-item:hover .rs-services-thumb img {
   transform: scale(1.05);
@@ -16971,19 +16970,19 @@ html.lenis body {
   color: #0C3C61;
 }
 .rs-services-three.has-theme-orange .rs-services-item:hover .rs-square-btn {
-  background: var(--rs-theme-orange);
+  background: var(--rs-theme-light-green);
 }
 .rs-services-three.has-theme-orange .rs-services-item:hover .rs-square-btn svg path {
   fill: var(--rs-white);
 }
 .rs-services-three.has-theme-orange .rs-services-item:hover .rs-text-btn {
-  color: var(--rs-theme-orange);
+  color: var(--rs-theme-light-green);
 }
 .rs-services-three.has-theme-orange .rs-services-item:hover .rs-services-number::before {
-  background: var(--rs-theme-orange);
+  background: var(--rs-theme-light-green);
 }
 .rs-services-three.has-theme-orange .rs-services-item:hover .rs-services-number::after {
-  color: var(--rs-theme-orange);
+  color: var(--rs-theme-light-green);
 }
 .rs-services-three.has-theme-orange .rs-services-content {
   background: var(--rs-bg-primary);
