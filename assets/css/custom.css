@@ -48,3 +48,12 @@
     margin-left: 20px;
     list-style: circle;
 }
+
+.pdf-icon {
+    height: 30px;
+}
+
+.rs-services-details-text {
+    font-size: var(--rs-fs-s);
+    line-height: 24px;
+}
