@@ -10754,6 +10754,9 @@ html.lenis body {
   opacity: 1;
   visibility: visible;
 }
+.rs-footer-widget-links ul li a.active {
+  color: var(--rs-theme-light-green);
+}
 .rs-footer-widget-links.has-theme-red ul li a::before {
   color: var(--rs-theme-red);
 }
