@@ -14717,7 +14717,7 @@ html.lenis body {
   color: #E6E6E6;
 }
 .rs-feature-six .rs-feature-item:hover .rs-feature-icon {
-  background: var(--rs-theme-yellow);
+  background: var(--rs-theme-light-green);
 }
 .rs-feature-six .rs-feature-item:hover .rs-feature-icon svg {
   animation: rs-fold linear 0.3s;
@@ -14771,18 +14771,18 @@ html.lenis body {
   animation: rs-fold linear 0.3s;
 }
 .rs-feature-seven .rs-feature-title {
-  font-size: 36px;
+  font-size: 26px;
   margin-bottom: 15px;
   margin-top: 30px;
 }
 @media only screen and (max-width: 1366px) {
   .rs-feature-seven .rs-feature-title {
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 @media only screen and (max-width: 1199px) {
   .rs-feature-seven .rs-feature-title {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 .rs-feature-seven .rs-feature-descrip {

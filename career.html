@@ -181,7 +181,7 @@
         <!-- why us area end -->
 
         <!-- what we offer area start -->
-        <section class="rs-elements-feature-area section-space rs-category-one primary-bg">
+        <section class="rs-elements-feature-area section-space rs-category-one primary-bg offer-section>
             <div class="container">
                 <div class="row  g-5 justify-content-center section-title-space align-items-center">
                     <div class="col-xxl-8 col-xl-9 col-lg-9">
@@ -355,7 +355,7 @@
     <!-- JS here -->
     <script>
         // Load header
-        fetch("/header.html")
+        fetch("./header.html")
             .then((response) => response.text())
             .then((data) => {
                 document.getElementById("header").innerHTML = data;
@@ -363,7 +363,7 @@
             });
 
         // Load footer
-        fetch("/footer.html")
+        fetch("./footer.html")
             .then((response) => response.text())
             .then((data) => {
                 document.getElementById("footer").innerHTML = data;
