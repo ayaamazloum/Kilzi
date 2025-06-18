@@ -86,7 +86,7 @@
                                         <a href="../../assets/docs/Isocam Board 32Kg.unf.pdf">
                                             <div class="left">
                                                 <span><img class="pdf-icon" src="../../assets/images/icon/pdf.png" alt="#"></span>
-                                                Technical Data Sheet
+                                                Technical Data Sheet 1
                                             </div>
                                             <span><img src="../../assets/images/icon/download-02.svg" alt="#"></span>
                                         </a>
@@ -95,7 +95,7 @@
                                         <a href="../../assets/docs/Isocam Board 48Kg.unf.pdf">
                                             <div class="left">
                                                 <span><img class="pdf-icon" src="../../assets/images/icon/pdf.png" alt="#"></span>
-                                                Technical Data Sheet
+                                                Technical Data Sheet 2
                                             </div>
                                             <span><img src="../../assets/images/icon/download-02.svg" alt="#"></span>
                                         </a>
@@ -104,7 +104,7 @@
                                         <a href="../../assets/docs/Isocam Board 60Kg.unf.pdf">
                                             <div class="left">
                                                 <span><img class="pdf-icon" src="../../assets/images/icon/pdf.png" alt="#"></span>
-                                                Technical Data Sheet
+                                                Technical Data Sheet 3
                                             </div>
                                             <span><img src="../../assets/images/icon/download-02.svg" alt="#"></span>
                                         </a>
@@ -124,7 +124,7 @@
                                                 <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11.0026 16L6.75999 11.7574L8.17421 10.3431L11.0026 13.1716L16.6595 7.51472L18.0737 8.92893L11.0026 16Z">
                                                 </path>
                                             </svg>
-                                            <div><b>Blanket dimensions</b>: 1x1.2m (1.2m2)</div>
+                                            <div><b>Blanket Dimensions</b>: 1x1.2m (1.2m2)</div>
                                         </li>
                                         <li>
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -324,7 +324,7 @@
     <!-- JS here -->
     <script>
         // Load header
-        fetch("./header.html")
+        fetch("/header.html")
             .then((response) => response.text())
             .then((data) => {
                 document.getElementById("header").innerHTML = data;
@@ -335,7 +335,7 @@
             });
 
         // Load footer
-        fetch("./footer.html")
+        fetch("/footer.html")
             .then((response) => response.text())
             .then((data) => {
                 document.getElementById("footer").innerHTML = data;

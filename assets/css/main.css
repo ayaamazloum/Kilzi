@@ -2971,7 +2971,7 @@ textarea:focus {
 .rs-breadcrumb-one .rs-breadcrumb-menu ul {
   display: inline-flex;
   gap: 15px 35px;
-  justify-content: center;
+  /* justify-content: center; */
   flex-wrap: wrap;
 }
 .rs-breadcrumb-one .rs-breadcrumb-menu ul li {

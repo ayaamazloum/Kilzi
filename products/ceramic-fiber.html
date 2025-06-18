@@ -83,7 +83,7 @@
                                     <p class="descrip">STD Ceramic fiber boards are rigid, high-temperature insulation materials made from alumina-silica fibers and binders. They provide excellent thermal resistance, mechanical strength, and low thermal conductivity, making them ideal for industrial applications.</p>
                                     <p class="descrip"><b>Technical Characteristics:</b></p>
                                     <ul class="service-tech-charac">
-                                        <li>Board dimensions: 1x0.60 m (0.6m2)</li>
+                                        <li>Board Dimensions: 1x0.60 m (0.6m2)</li>
                                         <li>Density: 300 Kg/m3</li>
                                         <li>Thermal Conductivity: 0.07 W/(mK)</li>
                                         <li>Temperature Classification: 1260 °C</li>
@@ -128,7 +128,7 @@
                                     <p class="descrip">Ceramic fiber blankets are lightweight, high-temperature insulation materials made from alumina-silicate fibers.</p>
                                     <p class="descrip"><b>Technical Characteristics:</b></p>
                                     <ul class="service-tech-charac">
-                                        <li>Blanket dimensions: 7.32x0.61 m (4.46m2)</li>
+                                        <li>Blanket Dimensions: 7.32x0.61 m (4.46m2)</li>
                                         <li>Density: 128 Kg/m3</li>
                                         <li>Thermal Conductivity: 0.06 W/(mK)</li>
                                         <li>Temperature Classification: 1260 °C</li>
@@ -188,7 +188,7 @@
     <!-- JS here -->
     <script>
         // Load header
-        fetch("./header.html")
+        fetch("/header.html")
             .then((response) => response.text())
             .then((data) => {
                 document.getElementById("header").innerHTML = data;
@@ -198,7 +198,7 @@
             });
 
         // Load footer
-        fetch("./footer.html")
+        fetch("/footer.html")
             .then((response) => response.text())
             .then((data) => {
                 document.getElementById("footer").innerHTML = data;
