@@ -8703,10 +8703,10 @@ html.lenis body {
 .main-menu > ul {
   display: inline-flex;
 }
-.main-menu > ul > li:hover > a {
-  color: var(--rs-theme-light-green);
+.main-menu ul li:hover > a {
+  color: var(--rs-theme-light-green) !important;
 }
-.main-menu > ul > li:hover > a::before {
+.main-menu ul li:hover a::before {
   opacity: 1;
 }
 .main-menu > ul > li:hover > ul {
