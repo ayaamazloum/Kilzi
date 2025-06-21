@@ -73,3 +73,11 @@
 .offer-section .row:nth-child(2) {
     justify-content: center;
 }
+
+.rs-footer-bg-thumb {
+    background-image: url('/assets/images/bg/footer-bg-10.png');
+}
+
+/* .rs-copyright-bg-thumb {
+    background-image: url('/assets/images/bg/copy-right-bg-03.png');
+} */

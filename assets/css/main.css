@@ -11306,9 +11306,9 @@ html.lenis body {
 .rs-copyright-one .rs-footer-copyright.has-theme-deep-blue p {
   color: var(--rs-white);
 }
-.rs-copyright-one .rs-footer-copyright.has-theme-green a {
+/* .rs-copyright-one .rs-footer-copyright.has-theme-green a {
   color: var(--rs-theme-green);
-}
+} */
 .rs-copyright-one .rs-footer-copyright.has-theme-green p {
   color: var(--rs-white);
 }
