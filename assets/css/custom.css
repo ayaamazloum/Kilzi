@@ -63,7 +63,7 @@
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 .sustainability-practices-section .row:nth-child(2) {
@@ -81,3 +81,7 @@
 /* .rs-copyright-bg-thumb {
     background-image: url('/assets/images/bg/copy-right-bg-03.png');
 } */
+
+.transparent {
+    color: transparent !important;
+}
